@@ -12,17 +12,17 @@ typedef struct {
     int quantidade;
 } Livro;
 
-// Variáveis globais para facilitar o controle
+// Variáveis globais
 Livro acervo[MAX_LIVROS];
 int totalLivros = 0;
 
-// Função para limpar o buffer do teclado
+// Função p/ limpar o buffer do espaço no final por causa do enter
 void limparBuffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }
 
-// 1. Leitura de Arquivo Texto
+// Leitura de Arquivo Texto
 void carregarArquivo() {
     FILE *arquivo = fopen("livros.txt", "r");
     if (arquivo == NULL) {
@@ -43,7 +43,7 @@ void carregarArquivo() {
     printf(">> %d livros carregados do arquivo.\n", totalLivros);
 }
 
-// 2. Adicionar Livro
+// Adicionar Livro
 void adicionarLivro() {
     if (totalLivros >= MAX_LIVROS) {
         printf("Acervo lotado!\n");
@@ -70,7 +70,7 @@ void adicionarLivro() {
     printf("Livro adicionado com sucesso!\n");
 }
 
-// 3. Algoritmo de Busca (Busca Linear)
+//  Algoritmo de Busca (Busca Linear)
 void buscarLivro() {
     int codBusca, encontrado = 0;
     printf("Digite o codigo do livro: ");
@@ -87,7 +87,7 @@ void buscarLivro() {
     if (!encontrado) printf("Livro nao encontrado.\n");
 }
 
-// 4. Imprimir Livros
+// Imprimir Livros
 void imprimirLivros() {
     if (totalLivros == 0) {
         printf("Nenhum livro no acervo.\n");
@@ -99,7 +99,7 @@ void imprimirLivros() {
     }
 }
 
-// 5. Algoritmo de Ordenacao (Bubble Sort)
+// Algoritmo de Ordenacao (Bubble Sort)
 void ordenarPorAno() {
     for (int i = 0; i < totalLivros - 1; i++) {
         for (int j = 0; j < totalLivros - i - 1; j++) {
