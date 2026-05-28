@@ -1,0 +1,20 @@
+101;O Senhor dos Aneis;1954;5
+102;1984;1949;3
+103;Dom Quixote;1605;2
+104;O Pequeno Principe;1943;10
+105;A Revolução dos Bichos;1945;7
+106;A Guerra dos Tronos;1996;4
+107;O Hobbit;1937;6
+108;Orgulho e Preconceito;1813;3
+109;O Diário de Anne Frank;1947;8
+110;Cem Anos de Solidao;1967;5
+111;Admiravel Mundo Novo;1932;4
+112;O Alquimista;1988;12
+113;A Menina que Roubava Livros;2005;6
+114;Fahrenheit 451;1953;5
+115;O Codigo Da Vinci;2003;9
+116;Ensaio Sobre a Cegueira;1995;3
+117;Memórias Postumas de Bras Cubas;1881;7
+118;O Iluminado;1977;4
+119;O Silmarillion;1977;8
+120;Moby Dick;1851;2
